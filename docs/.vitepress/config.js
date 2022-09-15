@@ -3,7 +3,7 @@
  * @Author       : Sagit
  * @Date         : 2022-09-15 14:51:24 +0800
  * @LastEditors  : Sagit
- * @LastEditTime : 2022-09-15 16:23:39 +0800
+ * @LastEditTime : 2022-09-15 17:05:49 +0800
  * @FilePath     : /sagit-zhx-vitepress-blog/docs/.vitepress/config.js
  */
 import { defineConfig } from 'vitepress'
@@ -44,6 +44,7 @@ const config = defineConfig({
         items: [
           { text: 'Git工作流', link: '/git/gitWorkFlow.md' },
           { text: 'Git规范', link: '/git/gitRules.md' },
+          { text: 'commit团队规范约束', link: '/git/commitlint.md' },
         ]
       },
       {
