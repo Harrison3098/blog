@@ -1,0 +1,22 @@
+{
+  "name": "sagit-zhx-vitepress-blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "author": "sagit_zhx(sagit@foxmail.com)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.1",
+    "vitepress": "^1.0.0-alpha.14",
+    "vue": "^3.2.39"
+  }
+}
