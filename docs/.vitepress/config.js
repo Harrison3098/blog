@@ -3,7 +3,7 @@
  * @Author       : Sagit
  * @Date         : 2022-09-15 14:51:24 +0800
  * @LastEditors  : Sagit
- * @LastEditTime : 2022-09-15 17:05:49 +0800
+ * @LastEditTime : 2022-09-16 10:10:11 +0800
  * @FilePath     : /sagit-zhx-vitepress-blog/docs/.vitepress/config.js
  */
 import { defineConfig } from 'vitepress'
@@ -41,6 +41,8 @@ const config = defineConfig({
     sidebar: [
       {
         text: "Git",
+        collapsible: true,
+        collapsed: true,
         items: [
           { text: 'Git工作流', link: '/git/gitWorkFlow.md' },
           { text: 'Git规范', link: '/git/gitRules.md' },
@@ -49,9 +51,19 @@ const config = defineConfig({
       },
       {
         text: "GIS",
+        collapsible: true,
+        collapsed: true,
         items: [
           { text: 'GeoServer', link: '/gis/geoServer.md' },
           { text: '地图切片', link: '/gis/gisMapTile.md' },
+        ]
+      },
+      {
+        text: "五谷杂粮",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: 'Console', link: '/others/console.md' },
         ]
       },
     ]
